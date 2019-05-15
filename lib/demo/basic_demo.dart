@@ -22,7 +22,8 @@ class BasicDemo extends StatelessWidget {
             height: 90.0,
             decoration: BoxDecoration(
               color: Color.fromRGBO(3, 54, 255, 1.0),
-              borderRadius: BorderRadius.circular(16.0),
+//              borderRadius: BorderRadius.circular(16.0),
+            shape: BoxShape.circle,
               boxShadow: [
                 BoxShadow(
                   offset: Offset(6.0,7.0),
