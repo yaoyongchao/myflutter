@@ -21,7 +21,12 @@ class BasicDemo extends StatelessWidget {
             width: 90.0,
             height: 90.0,
             decoration: BoxDecoration(
-              color: Color.fromRGBO(3, 54, 255, 1.0)
+              color: Color.fromRGBO(3, 54, 255, 1.0),
+              border: Border.all(
+                  color: Colors.indigoAccent[100],
+                  width: 2.0,
+                  style: BorderStyle.solid
+              )
             ),
           )
         ],
