@@ -5,9 +5,11 @@ class LayoutDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           IconBadage(Icons.pool),
-          IconBadage(Icons.beach_access),
+          IconBadage(Icons.beach_access,size:64.0),
           IconBadage(Icons.airplanemode_active)
         ],
       ),
