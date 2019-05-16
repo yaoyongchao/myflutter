@@ -3,10 +3,14 @@ import 'package:flutter/material.dart';
 class LayoutDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        IconBadage(Icons.pool,size:64.0)
-      ],
+    return Container(
+      child: Column(
+        children: <Widget>[
+          IconBadage(Icons.pool),
+          IconBadage(Icons.beach_access),
+          IconBadage(Icons.airplanemode_active)
+        ],
+      ),
     );
   }
 }
